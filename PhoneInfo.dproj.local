@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/03/08 11:19:12.113,=rtl.dcp</Transaction>
+    <Transaction>2019/03/08 11:19:23.951,=C:\WorkSpace\Projects\Delphi\TPhoneInfo\Units\PhoneInfo.pas</Transaction>
+    <Transaction>2019/03/08 11:21:43.077,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Androidapi.JNI.Network.pas</Transaction>
+    <Transaction>2019/03/08 11:21:43.106,=C:\WorkSpace\Projects\Delphi\Common\Mobile\DeviceInfo.pas</Transaction>
+    <Transaction>2019/03/08 11:21:43.126,=C:\WorkSpace\Projects\Delphi\Common\Mobile\DeviceStatus.pas</Transaction>
+    <Transaction>2019/03/08 11:21:43.144,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Gyroscope.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.344,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Location.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.365,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Mail.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.395,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Motion.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.425,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Network.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.453,=C:\WorkSpace\Projects\Delphi\Common\Mobile\NetworkState.Android.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.486,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Notification.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.511,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Orientation.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.534,=C:\WorkSpace\Projects\Delphi\Common\Mobile\SMS.pas</Transaction>
+    <Transaction>2019/03/08 11:21:45.750,=C:\WorkSpace\Projects\Delphi\Common\Mobile\Speech.pas</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile Android="Test"/>
+  </ActiveMobileDevice>
+  <BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

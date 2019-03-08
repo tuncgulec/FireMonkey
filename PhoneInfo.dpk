@@ -1,0 +1,49 @@
+package PhoneInfo;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  PhoneInfo in 'Units\PhoneInfo.pas',
+  Androidapi.JNI.Network in '..\Common\Mobile\Androidapi.JNI.Network.pas',
+  DeviceInfo in '..\Common\Mobile\DeviceInfo.pas',
+  DeviceStatus in '..\Common\Mobile\DeviceStatus.pas',
+  Gyroscope in '..\Common\Mobile\Gyroscope.pas',
+  Location in '..\Common\Mobile\Location.pas',
+  Mail in '..\Common\Mobile\Mail.pas',
+  Motion in '..\Common\Mobile\Motion.pas',
+  Network in '..\Common\Mobile\Network.pas',
+  NetworkState.Android in '..\Common\Mobile\NetworkState.Android.pas',
+  Notification in '..\Common\Mobile\Notification.pas',
+  Orientation in '..\Common\Mobile\Orientation.pas',
+  SMS in '..\Common\Mobile\SMS.pas',
+  Speech in '..\Common\Mobile\Speech.pas';
+
+end.
